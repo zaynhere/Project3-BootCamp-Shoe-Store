@@ -1,0 +1,47 @@
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(0.5fr , 1fr));
+}
+
+.sec1 ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style-type: none;
+    cursor: pointer;
+    box-shadow: 0 6px 5px grey;
+    padding: 10px 2px;
+    margin: 8px 0;
+}
+
+.sec1 ul li.active{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+}
+
+.sec3{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sec3 li{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.cartCount{
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 30px;
+    position: relative;
+    top: -20px;
+    right: -40px;
+    color: green;
+}

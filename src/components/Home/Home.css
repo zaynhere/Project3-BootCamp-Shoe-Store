@@ -1,0 +1,17 @@
+.home-prod {
+    text-align: center;
+    margin: 80px auto 10px;
+    font-weight: bolder;
+    font-size: 35px;
+    font-style: oblique;
+    
+}
+
+@media screen and (max-width: 414px){
+    .home-prod {
+        margin: 150px auto 0;
+        font-weight: bolder;
+        font-size: 35px;
+        font-style: oblique;
+    }
+}

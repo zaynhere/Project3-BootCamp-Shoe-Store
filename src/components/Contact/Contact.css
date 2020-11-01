@@ -1,0 +1,15 @@
+.contact{
+    text-align: center;
+    margin: 50px;
+    font-size: 18px;
+    opacity: .9;
+}
+
+@media screen and (max-width: 414px){
+    .contact{
+        text-align: center;
+        margin: 30px;
+        font-size: 14px;
+        opacity: .9;
+    } 
+}

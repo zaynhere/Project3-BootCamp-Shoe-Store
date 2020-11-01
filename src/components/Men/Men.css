@@ -1,0 +1,7 @@
+.menpage-head img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
