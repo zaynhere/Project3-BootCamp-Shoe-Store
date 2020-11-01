@@ -12,3 +12,7 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
+
+a:-webkit-any-link{
+  color: black;
+}
