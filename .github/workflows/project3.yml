@@ -32,6 +32,9 @@ jobs:
       with:
        cmd: install 
        
+    - name: install history
+      run: sudo yarn add history
+         
     - name: build react app
       run: sudo yarn build
       
